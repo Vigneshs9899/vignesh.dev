@@ -26,7 +26,7 @@ const greeting = {
     "Python Backend Developer 🚀 Passionate about building scalable backend solutions and continuously improving software development skills."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1KNzqtUIyGO6edYqn6G-LMT3RNUqWePnR/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1zp0pFutom_qd9e3gDSPD9omnMe2HZfjc/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
