@@ -39,13 +39,12 @@ export default function Greeting() {
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                
                 {greeting.resumeLink && (
                   <Button
-    text="Download My Resume"
-    href="/resume.pdf"
-    newTab={true}
-  />
+                    text="Download My Resume"
+                    href="/resume.pdf"
+                    newTab={true}
+                  />
                 )}
               </div>
             </div>

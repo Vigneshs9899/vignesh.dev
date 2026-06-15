@@ -49,21 +49,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Python Backend Developer focused on API development, database systems, backend architecture, and cloud deployment.",
+  subTitle:
+    "Python Backend Developer focused on API development, database systems, backend architecture, and cloud deployment.",
   skills: [
+    emoji("⚡ Build REST APIs and backend applications using Python and Flask"),
     emoji(
-      "⚡ Build REST APIs and backend applications using Python and Flask"
+      "⚡ Design and manage PostgreSQL databases with efficient SQL queries and database schemas"
     ),
-    emoji("⚡ Design and manage PostgreSQL databases with efficient SQL queries and database schemas"),
     emoji(
       "⚡ Implement authentication, authorization, JWT security, and role-based access control"
     ),
     emoji(
       "⚡ Containerize applications using Docker and deploy solutions on Azure Cloud"
     ),
-       emoji(
-      "⚡ Work with Git, Linux, and modern development workflows"
-    )
+    emoji("⚡ Work with Git, Linux, and modern development workflows")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -115,17 +114,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-    skillName: "Git",
-    fontAwesomeClassname: "fab fa-git-alt"
-  },
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
     {
-    skillName: "GitHub",
-    fontAwesomeClassname: "fab fa-github"
-  },
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
     {
-    skillName: "Flask",
-    fontAwesomeClassname: "fas fa-server"
-  }
+      skillName: "Flask",
+      fontAwesomeClassname: "fas fa-server"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -167,7 +166,7 @@ const techStack = {
       Stack: "Python Programming",
       progressPercentage: "80%"
     },
-      {
+    {
       Stack: "Cloud & Deployment",
       progressPercentage: "65%"
     }
@@ -228,7 +227,8 @@ const bigProjects = {
     {
       image: require("./assets/images/python-logo.png"),
       projectName: "Workforce Management System",
-      projectDesc: "A workforce management platform designed to manage employees, jobs, timesheets, and role-based access control.Features include JWT authentication, employee management, job tracking, timesheet management, PostgreSQL database integration, and Docker-based deployment.",
+      projectDesc:
+        "A workforce management platform designed to manage employees, jobs, timesheets, and role-based access control.Features include JWT authentication, employee management, job tracking, timesheet management, PostgreSQL database integration, and Docker-based deployment.",
       footerLink: [
         {
           name: "View Project",
@@ -240,7 +240,8 @@ const bigProjects = {
     {
       image: require("./assets/images/python-logo.png"),
       projectName: "Doctor Appointment Management System",
-      projectDesc: "A web-based appointment management system that enables patients to schedule appointments and manage doctor consultations.Implemented authentication, CRUD operations, PostgreSQL integration, and Docker support.",
+      projectDesc:
+        "A web-based appointment management system that enables patients to schedule appointments and manage doctor consultations.Implemented authentication, CRUD operations, PostgreSQL integration, and Docker support.",
       footerLink: [
         {
           name: "View Project",
