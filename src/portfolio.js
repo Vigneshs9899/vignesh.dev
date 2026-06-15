@@ -26,7 +26,7 @@ const greeting = {
     "Python Backend Developer 🚀 Passionate about building scalable backend solutions and continuously improving software development skills."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1zp0pFutom_qd9e3gDSPD9omnMe2HZfjc/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1iO96ru_DRRFXQAZcEmDx_mSR8br4gEFK/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -215,8 +215,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
