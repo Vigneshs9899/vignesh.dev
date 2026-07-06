@@ -228,45 +228,28 @@ const bigProjects = {
       image: require("./assets/images/python-logo.png"),
       projectName: "Workforce Management System",
       projectDesc:
-        "A workforce management platform designed to manage employees, jobs, timesheets, and role-based access control.Features include JWT authentication, employee management, job tracking, timesheet management, PostgreSQL database integration, and Docker-based deployment.",
+        "A workforce management platform designed to manage employees, jobs, timesheets, and role-based access control. Features include JWT authentication, employee management, job tracking, timesheet management, PostgreSQL database integration, and Docker-based deployment.",
       footerLink: [
         {
           name: "View Project",
           url: "https://github.com/Vigneshs9899/workforce-management-system.git"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/python-logo.png"),
       projectName: "Doctor Appointment Management System",
       projectDesc:
-        "A web-based appointment management system that enables patients to schedule appointments and manage doctor consultations.Implemented authentication, CRUD operations, PostgreSQL integration, and Docker support.",
+        "A web-based appointment management system that enables patients to schedule appointments and manage doctor consultations. Implemented authentication, CRUD operations, PostgreSQL integration, and Docker support.",
       footerLink: [
         {
           name: "View Project",
-          url: "https://github.com/Vigneshs9899/doctor-appointment-devops.git"
-        }
-      ]
-    },
-      {
-      image: require("./assets/images/azure-logo.png"),
-      projectName: "Azure Sales Data Engineering Pipeline",
-      projectDesc:
-        "Designed and implemented a scalable end-to-end Azure Data Engineering pipeline to ingest, transform, store, and visualize sales data. The solution uses Azure Data Factory for automated ingestion, Azure Data Lake Storage Gen2 with Medallion Architecture, Azure Databricks (PySpark) for distributed data transformation, and Power BI for interactive business dashboards.",
-      footerLink: [
-        {
-          name: "View Project",
-          url: "https://github.com/Vigneshs9899/azure-sales-data-engineering-pipeline.git"
+          url: "https://github.com/Vigneshs9899" // Updated placeholder to your base profile
         }
       ]
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
-}
-
-  
 };
 
 // Achievement Section
