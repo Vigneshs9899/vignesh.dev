@@ -248,18 +248,6 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/python-logo.png"),
-      projectName: "Doctor Appointment Management System",
-      projectDesc:
-        "A web-based appointment management system that enables patients to schedule appointments and manage doctor consultations. Implemented authentication, CRUD operations, PostgreSQL integration, and Docker support.",
-      footerLink: [
-        {
-          name: "View Project",
-          url: "https://github.com/Vigneshs9899/doctor-appointment-devops.git" // Updated placeholder to your base profile
-        }
-      ]
-    },
      {
       image: require("./assets/images/azure-logo.png"),
       projectName: "Azure Sales Data Engineering Pipeline",
