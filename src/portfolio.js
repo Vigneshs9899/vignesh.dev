@@ -23,10 +23,10 @@ const greeting = {
   username: "Vignesh S",
   title: "Hi all, I'm Vignesh",
   subTitle: emoji(
-    "Python Backend Developer 🚀 Passionate about building scalable backend solutions and continuously improving software development skills."
+    "I am a Software Engineer specializing in Python Backend Development and Cloud Data Engineering."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1iO96ru_DRRFXQAZcEmDx_mSR8br4gEFK/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1IYGAz2hjbA7mc9LgByYxQLCG4kZou8W4/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
