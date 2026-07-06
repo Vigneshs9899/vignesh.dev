@@ -232,7 +232,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Project",
-          url: "#"
+          url: "https://github.com/Vigneshs9899/workforce-management-system.git"
         }
         //  you can add extra buttons here.
       ]
@@ -245,7 +245,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Project",
-          url: "#"
+          url: "https://github.com/Vigneshs9899/doctor-appointment-devops.git"
         }
       ]
     }
