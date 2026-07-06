@@ -248,11 +248,8 @@ const bigProjects = {
           url: "https://github.com/Vigneshs9899/doctor-appointment-devops.git"
         }
       ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-},
-  {
+    },
+      {
       image: require("./assets/images/azure-logo.png"),
       projectName: "Azure Sales Data Engineering Pipeline",
       projectDesc:
@@ -264,8 +261,12 @@ const bigProjects = {
         }
       ]
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
+}
+
+  
 };
 
 // Achievement Section
