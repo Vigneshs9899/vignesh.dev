@@ -251,6 +251,21 @@ const bigProjects = {
     }
   ],
   display: true // Set false to hide this section, defaults to true
+},
+  {
+      image: require("./assets/images/azure-logo.png"),
+      projectName: "Azure Sales Data Engineering Pipeline",
+      projectDesc:
+        "Designed and implemented a scalable end-to-end Azure Data Engineering pipeline to ingest, transform, store, and visualize sales data. The solution uses Azure Data Factory for automated ingestion, Azure Data Lake Storage Gen2 with Medallion Architecture, Azure Databricks (PySpark) for distributed data transformation, and Power BI for interactive business dashboards.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/Vigneshs9899/azure-sales-data-engineering-pipeline.git"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
