@@ -50,7 +50,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Python Backend Developer focused on API development, database systems, backend architecture, and cloud deployment.",
+    "Software Engineer focused on API development, database systems, backend architecture, and cloud deployment.",
   skills: [
     emoji("⚡ Build REST APIs and backend applications using Python and Flask"),
     emoji(
