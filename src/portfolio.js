@@ -26,7 +26,7 @@ const greeting = {
     "I am a Software Engineer specializing in Python Backend Development and Cloud Data Engineering."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1IYGAz2hjbA7mc9LgByYxQLCG4kZou8W4/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Z_Ik-4UuudjAgej9kzWatiL1NK-1zSEB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -224,6 +224,18 @@ const bigProjects = {
   title: "Projects",
   subtitle: "",
   projects: [
+    {
+      image: require("./assets/images/python-logo.png"),
+      projectName: "Enterprise Email Automation Pipeline",
+      projectDesc:
+        "Python automation tool integrating Gmail API, Google Cloud Storage, and Jira for email backup, reporting, and cleanup.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/Vigneshs9899/enterprise-email-automation-pipeline.git"
+        }
+      ]
+    },
     {
       image: require("./assets/images/python-logo.png"),
       projectName: "Workforce Management System",
